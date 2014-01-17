@@ -1,0 +1,118 @@
+@charset "UTF-8";
+/* Responsive Setup */
+
+@-moz-viewport { width: device-width; scale: 1;}
+@-ms-viewport { width: device-width; scale: 1;}
+@-webkit-viewport { width: device-width; scale: 1;}
+@-o-viewport { width: device-width; scale: 1;}
+@viewport { width: device-width; scale: 1;}
+
+html{
+-moz-text-size-adjust: 100%;
+-ms-text-size-adjust: 100%;
+-webkit-text-size-adjust: 100%;
+-o-text-size-adjust: 100%;
+text-size-adjust: 100%;
+}
+
+/* CSS */
+
+html, body{
+font-family: Georgia, "Times New Roman", Times, serif;
+width: 100%;
+margin: 0 auto;
+padding: 0;
+font-size: 1rem;
+line-height: 1rem;
+}
+
+
+main{
+	width: 90%;
+	margin: 0 auto;
+}
+	
+h1{
+		text-align: center;
+		position: relative;
+		top: 9px;
+}
+
+h2, h3, h4, h5, h6 {
+	font-size:20px;
+}
+
+
+dt {
+	text-decoration:underline;
+}
+
+.list {
+	margin-left: 20px;
+	display: block;
+}
+
+.logo {
+	width: 128px;
+	position:relative;
+	left: 2%;
+	top: 1rem;
+	margin-left: 0.9rem;
+}
+	
+
+img{
+	width:100%;
+	margin:20px;
+}
+
+p {
+	margin: 20px;
+}
+
+.hide-text {
+text-indent: 100%;
+white-space: nowrap;
+overflow: hidden;
+}
+
+.nav-btn,
+.nav-btn:link,
+.nav-btn:visited {
+display: block;
+position:absolute;
+top: 10px;
+right: 5%;
+height: 40px;
+width: 40px;
+background: #fff url('../images/nav-icon.svg') no-repeat center center;
+}
+
+.nav-btn:hover,
+.nav-btn:focus,
+.nav-btn:active{
+background-color: #ccc;
+}
+
+/* !!!! */
+
+.nav a,
+.nav a:link,
+.nav a:visited{
+text-align: center;
+display: block;
+color:#FFF;
+text-decoration:none;
+padding: 1rem;
+border-top: 1px solid #fff;
+background-color: #000;
+}
+
+.nav-top{
+display: none;
+}
+
+.nav-top[data-state="expanded"]{
+display: block;
+}
+ 
